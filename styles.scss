@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bh-theme/theme-lib.theme.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8faf9;
+}
+
+.align-border {
+  border: 1px solid #e4e0e0;
+}
+
+.accordion-header {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.align-table{
+  border-radius: 5px;
+  overflow: auto;
+  border: 1px solid #e2dddd;
+}
+
+.viewonly-access{
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.cloned{
+  border: 1px solid rgb(252, 146, 76) !important;
+}
+.viewonly-card{
+  opacity: 0.6;
+  }
+
+  .w-20{
+    flex: 0 0 20%;
+    margin-right: 2%;
+  }
+
+.w-10{
+  flex: 0 0 10%;
+  margin-right: 2%;
+}
+
+.w-8{
+  flex: 0 0 8%;
+  margin-right: 2%;
+}
+
+.w-12{
+  flex: 0 0 12%;
+  margin-right: 2%;
+}
+
+.w-18{
+  flex: 0 0 18%;
+  margin-right: 2%;
+}
+.w-15{
+  flex: 0 0 15%;
+}
+
+.w-13{
+  flex: 0 0 13%;
+  margin-right: 2%;
+}
+
+.disable-BOM{
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.highlight_cancel{
+  color: red !important;
+}
+
+.align-data{
+    margin: auto;
+    padding-top: 10px;
+}
+
+.highlight_green{
+  color: #02a783;
+}
+
+.hold .mat-checkbox-inner-container {
+  margin-top: initial;
+  margin-bottom: initial;
+  transform: translateY(-12px); // value of checkbox border-width
+}
+.hold .mat-checkbox-label {
+  white-space: normal; // wrap label text
+  transform: translateY(-14px); 
+  font-size: 12px;
+}
+
+.hold{
+  text-align: center;   
+}
+
+.hold .mat-checkbox-label span{
+  font-size: 12px !important;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row{
+  height: 60px !important;
+}
+
+
